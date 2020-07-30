@@ -1,0 +1,153 @@
+html *{
+	margin:10;
+	padding:10;
+}
+
+body {
+	background-color: burlywood;
+	color: #FFFFFF;
+}
+
+h1{
+	font-size:20px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: firebrick;
+	text-align: center;
+	
+
+	
+	
+	
+}
+
+h2{
+	font-size:30px;
+	text-align: center;
+	color: red;
+	
+	
+	
+}
+header{
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 30px;
+	color:firebrick;
+	font-weight: 700;
+	text-shadow: 2px 2px 4px #C6571A;
+	margin-bottom: 50px;	
+
+}
+
+
+main {
+       column-count:5;
+}
+
+.datos {
+	column-count: 5;
+	
+	
+}
+.L {
+   	
+   	text-align: center;
+	
+
+}
+
+	
+
+
+section{
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: 10px;
+	
+	width: 240px;
+	height: 200px;		
+	
+   
+}
+
+
+#TEMP{
+	flex:1;
+	background-image: url("https://www.importancia.org/wp-content/uploads/temperatura.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+	
+	
+}
+
+#HUM{
+	flex:1;
+	background-image: url("https://data.1freewallpapers.com/download/drops-glass-close-up-surface-moisture.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#GAS{
+	flex:1;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxF95BRuvU-_LY_Njy_-2z7Tt1t0mzpJRlGg&usqp=CAU");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#LIGHT{
+	flex:1;
+	background-image: url("https://inmueblesmastecnologia.files.wordpress.com/2013/06/luz-directa.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#LED{
+	flex:1;
+	background-image: url("https://www.dhresource.com/0x0/f2/albu/g6/M01/EA/F1/rBVaSFvJkiaAGtZOAACn6uPJO8Q607.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+	
+}
+
+.myButton {
+	
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 35px;
+	padding: 18px;
+	text-decoration: none;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+	-webkit-box-shadow: 1px 1px 15px #666666;
+	-moz-box-shadow: 1px 1px 15px #666666;
+	box-shadow: 1px 1px 15px #666666;
+	text-shadow: 1px 1px 3px #666666;
+	border: solid #d91c71 2px;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#faea3f), to(#fc0574));
+	background: -moz-linear-gradient(top, #faea3f, #fc0574);
+	display: inline-block;
+	width: 300px;
+	height: 80px;
+	
+	
+}
+.myButton:hover {
+  background: #e62097;
+}
+	
+.myButton:hover {
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
